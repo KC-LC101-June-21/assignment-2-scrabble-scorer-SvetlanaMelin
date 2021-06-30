@@ -111,17 +111,17 @@ let newPointStructure = transform(oldPointStructure);
 
 
 let simple = {
-  name: "0 - Simple",
+  name: "Simple Score",
   description: "One point per character",
   scoringFunction: simpleScore,
 };
 let vowelBonus = {
-  name: "1 - Vowel Bonus",
+  name: "Vowel Bonus",
   description: "Vowels are worth 3 points",
   scoringFunction: vowelBonusScore
 };
 let scrubble = {
-  name: "2 - Scrubble",
+  name: "Scrubble",
   description: "Uses scrabble point system",
   scoringFunction: scrabbleScore
 };
