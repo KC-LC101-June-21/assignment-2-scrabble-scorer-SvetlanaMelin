@@ -73,10 +73,10 @@ let numScore;
 function simpleScore(word) {
   word = word.toUpperCase();
 
-  for (let i = 0; i < word.length; i++) {
+  /*for (let i = 0; i < word.length; i++) {
     numScore = word.length;
-  }
-  return numScore;
+  }*/
+  return word.length;
 
 }
 
